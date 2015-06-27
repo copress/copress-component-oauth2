@@ -2,9 +2,9 @@
  * Module dependencies.
  */
 
-var exports = module.exports = require('./oauth2-sycle');
+var exports = module.exports = require('./lib/oauth2-sycle');
 
-exports.oauth2orize = require('./oauth2orize');
+exports.oauth2orize = require('./lib/oauth2orize');
 
 /**
  * A factory function for middleware handler that obtains the `authentication`
