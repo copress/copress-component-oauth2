@@ -1,7 +1,7 @@
 {
   "name": "sycle-component-oauth2",
-  "version": "0.0.1",
-  "description": "oAuth 2.0 server for Sycle",
+  "version": "0.1.0",
+  "description": "oAuth 2.0 provider for Sycle",
   "main": "lib/index.js",
   "scripts": {
     "test": "mocha --reporter spec --require test/bootstrap/node test/*.test.js test/**/*.test.js"

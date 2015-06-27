@@ -20,7 +20,7 @@ describe('sycle-component-oauth2/models', function () {
         sapp.boot(function (err) {
             if (err) throw err;
 
-            modelsBuilder(app);
+            modelsBuilder(sapp);
 
             done();
         })
