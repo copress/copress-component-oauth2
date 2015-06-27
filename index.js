@@ -22,7 +22,7 @@ exports.authenticate = function (options) {
             }
 
             var handlers = authenticate(options);
-            router = app.loopback.Router();
+            router = app.expressx.Router();
             for (var i = 0, n = handlers.length; i < n; i++) {
                 router.use(handlers[i]);
             }
