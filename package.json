@@ -1,0 +1,47 @@
+{
+  "name": "sycle-component-oauth2",
+  "version": "0.0.1",
+  "description": "oAuth 2.0 server for Sycle",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "mocha --reporter spec --require test/bootstrap/node test/*.test.js test/**/*.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sycle/sycle-component-oauth2.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sycle/sycle-component-oauth2/issues"
+  },
+  "homepage": "https://github.com/sycle/sycle-component-oauth2",
+  "dependencies": {
+    "async": "^1.2.1",
+    "chai-connect-middleware": "^0.3.1",
+    "chai-oauth2orize-grant": "^0.2.0",
+    "connect-ensure-login": "^0.1.1",
+    "crypto": "0.0.3",
+    "debug": "^2.2.0",
+    "jws": "^3.0.0",
+    "passport": "^0.2.2",
+    "passport-http": "^0.2.2",
+    "passport-http-bearer": "^1.0.1",
+    "passport-local": "^1.0.0",
+    "passport-oauth2-client-password": "^0.1.2",
+    "passport-strategy": "^1.0.0",
+    "path-to-regexp": "^1.2.0",
+    "querystring": "^0.2.0",
+    "uid2": "0.0.3",
+    "url": "^0.10.3",
+    "utils-merge": "^1.0.0"
+  },
+  "devDependencies": {
+    "chai": "^3.0.0",
+    "jugglingdb": "^0.3.0",
+    "jugglingdb-mysql": "0.0.10",
+    "mocha": "^2.2.5",
+    "syclify": "sycle/syclify",
+    "vows": "^0.8.1"
+  }
+}
