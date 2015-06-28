@@ -1,6 +1,6 @@
 {
   "name": "sycle-component-oauth2",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "oAuth 2.0 provider for Sycle",
   "main": "index.js",
   "scripts": {
