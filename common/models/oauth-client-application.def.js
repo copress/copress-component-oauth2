@@ -30,7 +30,7 @@ module.exports = function (t) {
             "policyURI": String,
             "jwksURI": String,
             "jwks": {
-                "type": String
+                "type": t.JSON
                 //"mysql": {
                 //    "dataLength": 4096,
                 //    "dataType": "TEXT"
