@@ -2,7 +2,7 @@
  * Module dependencies.
  */
 
-var exports = module.exports = require('./lib/oauth2-sycle');
+var exports = module.exports = require('./lib/oauth2');
 
 exports.oauth2orize = require('./lib/oauth2orize');
 
