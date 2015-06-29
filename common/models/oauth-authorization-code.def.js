@@ -6,7 +6,7 @@ module.exports = function (t) {
         properties: {
             id: {type: String, index: true, required: true},
             appId: {type: String, index: true},
-            userId: {type: String, index: true},
+            userId: {type: Number, index: true},
             issuedAt: {type: Date, index: true},
             expiresIn: Number,
             expiredAt: {type: Date, index: true},

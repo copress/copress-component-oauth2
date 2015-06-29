@@ -8,7 +8,7 @@ module.exports = function (t) {
                 "index": true
             },
             "userId": {
-                "type": String,
+                "type": Number,
                 "index": true
             },
             "issuedAt": {
