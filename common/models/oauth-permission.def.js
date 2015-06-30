@@ -25,7 +25,7 @@ module.exports = function (t) {
         "relations": {
             "application": {
                 "type": "belongsTo",
-                "model": "OAuthClientApplication",
+                "model": "Application",
                 "foreignKey": "appId"
             },
             "user": {
