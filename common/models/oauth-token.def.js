@@ -2,7 +2,7 @@ module.exports = function (t) {
     return {
         "name": "OAuthAccessToken",
         "properties": {
-            "tid": {
+            "token": {
                 "type": String,
                 "length": 128
             },
