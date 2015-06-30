@@ -4,7 +4,8 @@ module.exports = function (t) {
     return {
         name: "OAuthAuthorizationCode",
         properties: {
-            id: {type: String, index: true, required: true},
+            id: {type: Number, index: true},
+            code: {type: String, index: true, required: true},
             appId: {type: String, index: true},
             userId: {type: Number, index: true},
             issuedAt: {type: Date, index: true},
