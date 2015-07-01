@@ -4,11 +4,11 @@ module.exports = function (t) {
         "properties": {
             "token": {
                 "type": String,
-                "length": 128
+                "length": 300
             },
             "appId": {
                 "type": String,
-                "length": 128,
+                "length": 300,
                 "index": true
             },
             "userId": {
@@ -28,12 +28,12 @@ module.exports = function (t) {
             "parameters": t.JSON,
             "authorizationCode": {
                 "type": String,
-                "length": 128,
+                "length": 300,
                 "index": true
             },
             "refreshToken": {
                 "type": String,
-                "length": 128,
+                "length": 300,
                 "index": true
             },
             "tokenType": t.JSON, // enum: ["Bearer", "MAC"]
