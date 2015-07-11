@@ -2,8 +2,9 @@
 
 module.exports = function (t) {
     return {
-        "name": "OAuthClientApplication",
-        "base": "Application",
+        "name": "Application",
+        //"name": "OAuthClientApplication",
+        //"base": "Application",
         "properties": {
             "clientType": {
                 "type": String // enum ["public", "confidential"]
