@@ -1,6 +1,6 @@
 {
   "name": "copress-component-oauth2",
-  "version": "0.1.15",
+  "version": "0.1.16",
   "description": "oAuth 2.0 provider for Sycle",
   "main": "index.js",
   "scripts": {
