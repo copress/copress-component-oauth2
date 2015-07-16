@@ -2,7 +2,7 @@ var syclify = require('syclify');
 var t = require('chai').assert;
 var modelsBuilder = require('../lib/models');
 
-describe('sycle-component-oauth2/models', function () {
+describe('copress-component-oauth2/models', function () {
 
     it('should work', function (done) {
         //this.timeout(2000);

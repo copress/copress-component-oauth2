@@ -1,5 +1,5 @@
 {
-  "name": "sycle-component-oauth2",
+  "name": "copress-component-oauth2",
   "version": "0.1.15",
   "description": "oAuth 2.0 provider for Sycle",
   "main": "index.js",
@@ -8,16 +8,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/sycle/sycle-component-oauth2.git"
+    "url": "https://github.com/copress/copress-component-oauth2.git"
   },
   "author": "",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/sycle/sycle-component-oauth2/issues"
+    "url": "https://github.com/copress/copress-component-oauth2/issues"
   },
-  "homepage": "https://github.com/sycle/sycle-component-oauth2",
+  "homepage": "https://github.com/copress/copress-component-oauth2",
   "dependencies": {
-    "async": "^1.2.1",
+    "async": "^1.3.0",
     "chai-connect-middleware": "^0.3.1",
     "chai-oauth2orize-grant": "^0.2.0",
     "connect-ensure-login": "^0.1.1",
