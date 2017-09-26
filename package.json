@@ -1,6 +1,6 @@
 {
   "name": "copress-component-oauth2",
-  "version": "0.1.16",
+  "version": "0.1.17",
   "description": "oAuth 2.0 provider for Sycle",
   "main": "index.js",
   "scripts": {
@@ -21,7 +21,6 @@
     "chai-connect-middleware": "^0.3.1",
     "chai-oauth2orize-grant": "^0.2.0",
     "connect-ensure-login": "^0.1.1",
-    "crypto": "0.0.3",
     "debug": "^2.2.0",
     "jws": "^3.0.0",
     "passport": "^0.2.2",
